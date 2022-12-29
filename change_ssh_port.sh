@@ -18,7 +18,7 @@ else
   echo -e "Performing checks..."
 fi
 
-# Check if user is root or using sudo
+# Check if user is root/using sudo
 if [[ $EUID -ne 0 ]]; then
   echo -e "\tThis script requires root privileges"
   exit 1
