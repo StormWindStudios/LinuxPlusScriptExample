@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ### DESCRIPTION: This script checks that the system is ready, then changes 
-### the SSH port in sshd_config, SELinux, and firewalld.
+### the SSH port in sshd_config, SELinux, and firewalld
 
 ### SECTION 1
 ### Checking system readiness and provided port
